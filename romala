@@ -7,11 +7,11 @@ xkb_symbols "basic" {
     key <AE01> {[ 1, exclam, 0x10030C4 ]};
     key <AE02> {[ 2, at, degree ]};
     key <AE03> {[ 3, numbersign, periodcentered ]};
-    key <AE04> {[ 4, dollar, 0x1002713 ]};
-    key <AE05> {[ 5, percent, 0x1002717 ]};
-    key <AE06> {[ 6, asciicircum, notsign ]};
-    key <AE07> {[ 7, ampersand, 0x1002665 ]};
-    key <AE08> {[ 8, asterisk, 0x100273D ]};
+    key <AE04> {[ 4, dollar, 0x1002713, 0x1002717 ]};
+    key <AE05> {[ 5, percent, 0x100266A, 0x100266B ]};
+    key <AE06> {[ 6, asciicircum, notsign, 0x1002200 ]};
+    key <AE07> {[ 7, ampersand, 0x1002665, 0x1002663 ]};
+    key <AE08> {[ 8, asterisk, 0x100265E, 0x100265A ]};
     key <AE09> {[ 9, parenleft, bracketleft, braceleft ]};
     key <AE10> {[ 0, parenright, bracketright, braceright ]};
     key <AE11> {[ minus, underscore, multiply, division ]};
@@ -47,7 +47,7 @@ xkb_symbols "basic" {
     key <AB01> {[ z, Z, less, guillemotleft ]};
     key <AB02> {[ x, X, greater, guillemotright ]};
     key <AB03> {[ c, C, copyright, cent ]};
-    key <AB04> {[ v, V ]};
+    key <AB04> {[ v, V, 0x100221E ]};
     key <AB05> {[ b, B, 0x10020bf ]};
     key <AB06> {[ n, N, dead_tilde ]};
     key <AB07> {[ m, M, mu ]};
@@ -76,15 +76,26 @@ xkb_symbols "basic" {
 // ÷ >> division >> Obelus
 // × >> multiply >> Times
 
-// ♥ >> 0x1002665 >> Heavy Black Hearth
+// ∞ >> 0x100221E > Infinity
+// ∀ >> 0x1002200 > For All
+
+// ♥ >> 0x1002665 >> Black Hearth Suit
+// ♣ >> 0x1002663 >> Black Club Suit
+// ♦ >> 0x1002666 >> Black Diamond Suit
+
+// ♪ >> 0x100266A >> Eighth Note
+// ♫ >> 0x100266B >> Beamed Eighth Notes
+
+// ♞ >> 0x100265E >> Black Chess Knight
+// ♚ >> 0x100265A >> Black Chess King
+
+// ✼ >> 0x100273C >> Open Centre Teardrop-Spoked Asterisk
 
 // ‽ >> 0x100203D >> Interrobang
 // ⸮ >> 0x1002E2E >> Irony Punctuation
 
 // ✓ >> 0x1002713 >> Check Mark
 // ✗ >> 0x1002717 >> Ballot X
-
-// ✼ >> 0x100273C >> Open Centre Teardrop-Spoked Asterisk
 
 // ⇐ >> 0x10021D0 >> Double Arrow Left
 // ⇑ >> 0x10021D1 >> Double Arrow Up
