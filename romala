@@ -3,36 +3,36 @@ xkb_symbols "basic" {
 
     name[Group1]= "Romala";
 
-    key <TLDE> {[ grave, dead_tilde, degree ]};
-    key <AE01> {[ 1, exclam, exclamdown ]};
-    key <AE02> {[ 2, at, 0x100203D, 0x1002E2E ]};
-    key <AE03> {[ 3, numbersign, periodcentered ]};
-    key <AE04> {[ 4, dollar, dead_acute ]};
-    key <AE05> {[ 5, percent, dead_grave ]};
-    key <AE06> {[ 6, dead_circumflex, notsign ]};
-    key <AE07> {[ 7, ampersand, dead_abovering ]};
-    key <AE08> {[ 8, asterisk, dead_ogonek ]};
-    key <AE09> {[ 9, parenleft, dead_cedilla ]};
-    key <AE10> {[ 0, parenright, dead_diaeresis ]};
-    key <AE11> {[ minus, underscore, dead_macron ]};
+    key <TLDE> {[ grave, asciitilde, dead_grave, dead_tilde ]};
+    key <AE01> {[ 1, exclam, exclamdown, 0x10030C4 ]};
+    key <AE02> {[ 2, at, dead_tilde, 0x1002764 ]};
+    key <AE03> {[ 3, numbersign, periodcentered, 0x1002713 ]};
+    key <AE04> {[ 4, dollar, dead_acute, 0x1002717 ]};
+    key <AE05> {[ 5, percent, dead_grave, 0x1002030 ]};
+    key <AE06> {[ 6, asciicircum, dead_circumflex, notsign ]};
+    key <AE07> {[ 7, ampersand, dead_abovering, degree ]};
+    key <AE08> {[ 8, asterisk, dead_ogonek, 0x100273C ]};
+    key <AE09> {[ 9, parenleft, dead_cedilla, bracketleft ]};
+    key <AE10> {[ 0, parenright, dead_diaeresis, bracketright ]};
+    key <AE11> {[ minus, underscore, dead_macron, 0x101F937 ]};
     key <AE12> {[ equal, plus, notequal, plusminus ]};
 
     key <AD01> {[ q, Q ]};
-    key <AD02> {[ w, W ]};
+    key <AD02> {[ w, W, uparrow, 0x10021D1 ]};
     key <AD03> {[ e, E, EuroSign ]};
     key <AD04> {[ r, R, registered ]};
-    key <AD05> {[ t, T ]};
-    key <AD06> {[ y, Y, leftarrow, yen ]};
-    key <AD07> {[ u, U, downarrow, uparrow ]};
-    key <AD08> {[ i, I, rightarrow ]};
+    key <AD05> {[ t, T, trademark ]};
+    key <AD06> {[ y, Y, yen ]};
+    key <AD07> {[ u, U ]};
+    key <AD08> {[ i, I ]};
     key <AD09> {[ o, O ]};
     key <AD10> {[ p, P, Greek_pi, paragraph ]};
     key <AD11> {[ bracketleft, braceleft, guillemotleft ]};
     key <AD12> {[ bracketright, braceright, guillemotright ]};
 
-    key <AC01> {[ a, A, ae, AE ]};
-    key <AC02> {[ s, S, section ]};
-    key <AC03> {[ d, D, Greek_DELTA ]};
+    key <AC01> {[ a, A, leftarrow, 0x10021D0 ]};
+    key <AC02> {[ s, S, downarrow, 0x10021D3 ]};
+    key <AC03> {[ d, D, rightarrow, 0x10021D2 ]};
     key <AC04> {[ f, F, 0x1000192 ]};
     key <AC05> {[ g, G ]};
     key <AC06> {[ h, H ]};
@@ -49,15 +49,48 @@ xkb_symbols "basic" {
     key <AB05> {[ b, B, 0x10020bf ]};
     key <AB06> {[ n, N, dead_tilde ]};
     key <AB07> {[ m, M, mu ]};
-    key <AB08> {[ comma, less, guillemotleft, lessthanequal ]};
-    key <AB09> {[ period, greater, guillemotright, greaterthanequal ]};
+    key <AB08> {[ comma, less, lessthanequal, 0x100203D ]};
+    key <AB09> {[ period, greater, greaterthanequal, 0x1002E2E ]};
     key <AB10> {[ slash, question, backslash ,questiondown ]};
 
-    key <BKSL> {[ backslash, bar ]};
+    key <BKSL> {[ backslash, bar, dead_diaeresis, dead_circumflex ]};
 
     include "level3(ralt_switch)"
 };
 
+// ̃◌ >> dead_tilde
+// ́◌ >> dead_acute
+// ̀◌ >> dead_grave
+// ̂◌ >> dead_circumflex
+// ̧◌ >> dead_cedilla
+// ǫ >> dead_ogonek
 
-// ‽ >> 0x100203D >> interrobang
-// ⸮ >> 0x1002E2E >> irony punctuation
+// ® >> registered
+// © >> copyright
+
+// ± >> plusminus
+
+// « >> guillemotleft
+// » >> guillemotright
+
+// ÷ >> division >> Obelus
+// × >> multiply >> Times
+
+// ❤ >> 0x1002764 >> Heavy Black Hearth
+
+// ‽ >> 0x100203D >> Interrobang
+// ⸮ >> 0x1002E2E >> Irony Punctuation
+
+// ✓ >> 0x1002713 >> Check Mark
+// ✗ >> 0x1002717 >> Ballot X
+
+// ✼ >> 0x100273C >> Open Centre Teardrop-Spoked Asterisk
+
+// ⇐ >> 0x10021D0 >> Double Arrow Left
+// ⇑ >> 0x10021D1 >> Double Arrow Up
+// ⇒ >> 0x10021D2 >> Double Arrow Right
+// ⇓ >> 0x10021D3 >> Double Arrow Down
+
+// ッ >> 0x10030C4 >> Tsu
+
+// 🤷 >> 0x101F937 >> Person Shrugging
