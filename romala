@@ -4,45 +4,45 @@ xkb_symbols "basic" {
     name[Group1]= "Romala";
 
     key <TLDE> {[ grave, asciitilde, dead_grave, dead_tilde ]};
-    key <AE01> {[ 1, exclam, 0x10030C4 ]};
-    key <AE02> {[ 2, at, degree ]};
-    key <AE03> {[ 3, numbersign, periodcentered ]};
-    key <AE04> {[ 4, dollar, 0x1002713, 0x1002717 ]};
-    key <AE05> {[ 5, percent, 0x100266A, 0x100266B ]};
-    key <AE06> {[ 6, asciicircum, notsign, 0x1002200 ]};
-    key <AE07> {[ 7, ampersand, 0x1002665, 0x1002663 ]};
-    key <AE08> {[ 8, asterisk, 0x100265E, 0x100265A ]};
-    key <AE09> {[ 9, parenleft, bracketleft, braceleft ]};
-    key <AE10> {[ 0, parenright, bracketright, braceright ]};
+    key <AE01> {[ 1, exclam, dead_acute ]};
+    key <AE02> {[ 2, at, dead_diaeresis ]};
+    key <AE03> {[ 3, numbersign, dead_circumflex ]};
+    key <AE04> {[ 4, dollar, dead_caron  ]};
+    key <AE05> {[ 5, percent, dead_breve ]};
+    key <AE06> {[ 6, asciicircum, dead_macron ]};
+    key <AE07> {[ 7, ampersand, dead_abovering, periodcentered ]};
+    key <AE08> {[ 8, asterisk, dead_tilde ]};
+    key <AE09> {[ 9, parenleft, dead_cedilla ]};
+    key <AE10> {[ 0, parenright, dead_ogonek ]};
     key <AE11> {[ minus, underscore, multiply, division ]};
     key <AE12> {[ equal, plus, notequal, plusminus ]};
 
-    key <AD01> {[ q, Q, dead_caron ]};
+    key <AD01> {[ q, Q ]};
     key <AD02> {[ w, W, uparrow, 0x10021D1 ]};
     key <AD03> {[ e, E, EuroSign ]};
     key <AD04> {[ r, R, registered ]};
     key <AD05> {[ t, T, trademark ]};
     key <AD06> {[ y, Y, yen ]};
-    key <AD07> {[ u, U, dead_abovering ]};
+    key <AD07> {[ u, U ]};
     key <AD08> {[ i, I, 0x100203D ]};
-    key <AD09> {[ o, O, dead_ogonek ]};
+    key <AD09> {[ o, O ]};
     key <AD10> {[ p, P, Greek_pi, paragraph ]};
-    key <AD11> {[ bracketleft, braceleft, exclamdown, questiondown ]};
-    key <AD12> {[ bracketright, braceright, exclam, question ]};
+    key <AD11> {[ bracketleft, braceleft, exclamdown ]};
+    key <AD12> {[ bracketright, braceright, exclam ]};
 
     key <AC01> {[ a, A, leftarrow, 0x10021D0 ]};
     key <AC02> {[ s, S, downarrow, 0x10021D3 ]};
     key <AC03> {[ d, D, rightarrow, 0x10021D2 ]};
     key <AC04> {[ f, F, 0x1000192 ]};
-    key <AC05> {[ g, G, dead_macron ]};
+    key <AC05> {[ g, G, degree ]};
     key <AC06> {[ h, H ]};
     key <AC07> {[ j, J ]};
     key <AC08> {[ k, K ]};
     key <AC09> {[ l, L, sterling, Greek_lambda ]};
-    key <AC10> {[ semicolon, colon, dead_acute, dead_grave ]};
-    key <AC11> {[ apostrophe, quotedbl, dead_diaeresis, dead_circumflex ]};
+    key <AC10> {[ semicolon, colon, questiondown ]};
+    key <AC11> {[ apostrophe, quotedbl, question ]};
 
-    key <BKSL> {[ backslash, bar, dead_tilde, dead_cedilla ]};
+    key <BKSL> {[ backslash, bar ]};
 
     key <AB01> {[ z, Z, less, guillemotleft ]};
     key <AB02> {[ x, X, greater, guillemotright ]};
@@ -57,6 +57,13 @@ xkb_symbols "basic" {
 
     include "level3(ralt_switch)"
 };
+
+// 0x10030C4
+// 0x1002713, 0x1002717
+// 0x100266A, 0x100266B
+// notsign, 0x1002200
+// 0x1002665, 0x1002663
+// 0x100265E, 0x100265A
 
 // ̃◌ >> dead_tilde
 // ́◌ >> dead_acute
