@@ -1,5 +1,5 @@
 # Romala
-a key layout covering special characters in the 6 romance languages (spanish, french, portuguese, italian)
+a key layout covering special characters in the romance languages (spanish, french, portuguese, italian, etc)
 
 The layout goes in the following directory:
 ```
