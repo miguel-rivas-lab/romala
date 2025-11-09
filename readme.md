@@ -104,7 +104,6 @@ The table below shows the available characters on each key.
 | 0   | 0       | )     | dead_ogonek     | ≥           |
 | -   | -       | _     | ×               | ÷           |
 | =   | =       | +     | ≠               | ≡           |
-
 | Q   | q      | Q     | ∈ | ∉ |
 | W   | w      | W     | ↑ | ⇑ |
 | E   | e      | E     | € | ∃ |
@@ -117,7 +116,6 @@ The table below shows the available characters on each key.
 | P   | p      | P     | ¶ | ∏ |
 | [   | [      | {     | ¡ | null |
 | ]   | ]      | }     | ! | null |
-
 | A   | a      | A     | ← | ⇐ |
 | S   | s      | S     | ↓ | ⇓ |
 | D   | d      | D     | → | ⇒ |
@@ -129,7 +127,6 @@ The table below shows the available characters on each key.
 | L   | l      | L     | £ | λ |
 | ;   | ;      | :     | ¿ | null |
 | '   | '      | "     | ? | null |
-
 | \   | \      | |    | bar | null |
 | Z   | z      | Z     | < | « |
 | X   | x      | X     | > | » |
