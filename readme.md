@@ -86,58 +86,55 @@ This generates a `.deb` package ready for installation.
 
 ## Romala Keyboard Layout
 
-The table below shows the available characters on each key.
-**AltGr** refers to the right Alt key, and **Shift+AltGr** provides additional symbols used for math, logic, and language-specific characters. Dead keys modify the next key pressed to produce accented characters.
-
-| Key | Default | Shift | AltGr           | Shift+AltGr |
-| --- | ------- | ----- | --------------- | ----------- |
-| `   | `       | ~     | dead_grave      | ≈           |
-| 1   | 1       | !     | dead_acute      | ∀           |
-| 2   | 2       | @     | dead_diaeresis  | ∑           |
-| 3   | 3       | #     | dead_circumflex | √           |
-| 4   | 4       | $     | dead_caron      | ∅           |
-| 5   | 5       | %     | dead_breve      | ‰           |
-| 6   | 6       | ^     | dead_macron     | ∞           |
-| 7   | 7       | &     | dead_abovering  | ·           |
-| 8   | 8       | *     | dead_tilde      | ⇔           |
-| 9   | 9       | (     | dead_cedilla    | ≤           |
-| 0   | 0       | )     | dead_ogonek     | ≥           |
-| -   | -       | _     | ×               | ÷           |
-| =   | =       | +     | ≠               | ≡           |
-| Q   | q      | Q     | ∈ | ∉ |
-| W   | w      | W     | ↑ | ⇑ |
-| E   | e      | E     | € | ∃ |
-| R   | r      | R     | ® | null |
-| T   | t      | T     | ™ | null |
-| Y   | y      | Y     | ¥ | ∇ |
-| U   | u      | U     | ∪ | ∩ |
-| I   | i      | I     | ⊂ | ⊃ |
-| O   | o      | O     | ⊆ | ⊇ |
-| P   | p      | P     | ¶ | ∏ |
-| [   | [      | {     | ¡ | null |
-| ]   | ]      | }     | ! | null |
-| A   | a      | A     | ← | ⇐ |
-| S   | s      | S     | ↓ | ⇓ |
-| D   | d      | D     | → | ⇒ |
-| F   | f      | F     | ƒ | ∫ |
-| G   | g      | G     | ° | null |
-| H   | h      | H     | ± | ∓ |
-| J   | j      | J     | ∧ | ∨ |
-| K   | k      | K     | § | null |
-| L   | l      | L     | £ | λ |
-| ;   | ;      | :     | ¿ | null |
-| '   | '      | "     | ? | null |
-| \   | \      | bar   | null  | null |
-| Z   | z      | Z     | < | « |
-| X   | x      | X     | > | » |
-| C   | c      | C     | © | ¢ |
-| V   | v      | V     | ∂ | null |
-| B   | b      | B     | Ƀ | null |
-| N   | n      | N     | dead_tilde | ¬ |
-| M   | m      | M     | µ | null |
-| ,   | ,      | <     | « | ≤ |
-| .   | .      | >     | » | ≥ |
-| /   | /      | ?     | \ | ¿ |
+| Key | Default | Shift | AltGr           | Shift+AltGr |   |
+| --- | ------- | ----- | --------------- | ----------- | - |
+| `   | `       | ~     | dead_grave      | null        |   |
+| 1   | 1       | !     | dead_acute      | null        |   |
+| 2   | 2       | @     | dead_diaeresis  | null        |   |
+| 3   | 3       | #     | dead_circumflex | null        |   |
+| 4   | 4       | $     | dead_caron      | null        |   |
+| 5   | 5       | %     | dead_breve      | null        |   |
+| 6   | 6       | ^     | dead_macron     | null        |   |
+| 7   | 7       | &     | dead_abovering  | ·           |   |
+| 8   | 8       | *     | dead_tilde      | null        |   |
+| 9   | 9       | (     | dead_cedilla    | null        |   |
+| 0   | 0       | )     | dead_ogonek     | null        |   |
+| -   | -       | _     | ×               | ÷           |   |
+| =   | =       | +     | ≠               | ≡           |   |
+| Q   | q       | Q     | ∈               | ∉           |   |
+| W   | w       | W     | ↑               | ⇑           |   |
+| E   | e       | E     | €               | null        |   |
+| R   | r       | R     | ®               | null        |   |
+| T   | t       | T     | ™               | null        |   |
+| Y   | y       | Y     | ¥               | null        |   |
+| U   | u       | U     | ∪               | ∩           |   |
+| I   | i       | I     | ∞               | null        |   |
+| O   | o       | O     | ∅               | null        |   |
+| P   | p       | P     | ¶               | null        |   |
+| [   | [       | {     | ¡               | null        |   |
+| ]   | ]       | }     | !               | null        |   |
+| A   | a       | A     | ←               | ⇐           |   |
+| S   | s       | S     | ↓               | ⇓           |   |
+| D   | d       | D     | →               | ⇒           |   |
+| F   | f       | F     | ƒ               | ∫           |   |
+| G   | g       | G     | °               | null        |   |
+| H   | h       | H     | ±               | null        |   |
+| J   | j       | J     | ∧               | ∨           |   |
+| K   | k       | K     | §               | null        |   |
+| L   | l       | L     | £               | λ           |   |
+| ;   | ;       | :     | ¿               | null        |   |
+| '   | '       | "     | ?               | null        |   |
+| \   | \       | bar   | null            | null        |   |
+| Z   | z       | Z     | <               | «           |   |
+| X   | x       | X     | >               | »           |   |
+| C   | c       | C     | ©               | ¢           |   |
+| V   | v       | V     | ∇               | null        |   |
+| B   | b       | B     | Ƀ               | null        |   |
+| N   | n       | N     | dead_tilde      | ¬           |   |
+| M   | m       | M     | µ               | null        |   |
+| ,   | ,       | <     | «               | ≤           |   |
+| .   | .       | >     | »               | ≥           |   |
+| /   | /       | ?     | \               | ¿           |   |
 
 ---
 
