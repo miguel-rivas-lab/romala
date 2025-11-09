@@ -1,0 +1,11 @@
+<layout>
+  <configItem>
+    <name>romala</name>
+    <shortDescription>romala</shortDescription>
+    <description>Romala</description>
+    <languageList>
+      <iso639Id>eng</iso639Id>
+    </languageList>
+  </configItem>
+</layout>
+
