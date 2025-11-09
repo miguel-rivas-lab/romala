@@ -91,7 +91,7 @@ The table below shows the available characters on each key.
 
 | Key | Default | Shift | AltGr           | Shift+AltGr |
 | --- | ------- | ----- | --------------- | ----------- |
-| `~  | `       | ~     | dead_grave      | ≈           |
+| `   | `       | ~     | dead_grave      | ≈           |
 | 1   | 1       | !     | dead_acute      | ∀           |
 | 2   | 2       | @     | dead_diaeresis  | ∑           |
 | 3   | 3       | #     | dead_circumflex | √           |
@@ -127,7 +127,7 @@ The table below shows the available characters on each key.
 | L   | l      | L     | £ | λ |
 | ;   | ;      | :     | ¿ | null |
 | '   | '      | "     | ? | null |
-| \   | \      | |    | bar | null |
+| \   | \      | bar   | null  | null |
 | Z   | z      | Z     | < | « |
 | X   | x      | X     | > | » |
 | C   | c      | C     | © | ¢ |
