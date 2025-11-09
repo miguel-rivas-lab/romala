@@ -7,7 +7,21 @@ Maintainer: Miguel Rivas <romala.57exq@simplelogin.fr>
 Homepage: https://jmiguelrivas.github.io
 Description: Romala keyboard layout for Romance languages
  Romala extends the standard English keyboard with dead keys and accents,
- enabling efficient typing in Romance languages such as Spanish (spa), Portuguese (por),
- French (fra), Italian (ita), Romanian (ron), Catalan / Valencian (cat), Galician (glg),
- Occitan (oci), Sardinian (srd), Ladin (lld), Romansh (roh), Asturian / Bable (ast),
- Aranese (arg), Corsican (cos), Walloon (wln), Mirandese (mwl), and Aromanian / Macedo-Romanian (rup).
+ enabling efficient typing in a wide range of Romance languages. Supported languages:
+  - Spanish (spa)
+  - Portuguese (por)
+  - French (fra)
+  - Italian (ita)
+  - Romanian (ron)
+  - Catalan / Valencian (cat)
+  - Galician (glg)
+  - Occitan (oci)
+  - Sardinian (srd)
+  - Ladin (lld)
+  - Romansh (roh)
+  - Asturian / Bable (ast)
+  - Aranese (arg)
+  - Corsican (cos)
+  - Walloon (wln)
+  - Mirandese (mwl)
+  - Aromanian / Macedo-Romanian (rup)
