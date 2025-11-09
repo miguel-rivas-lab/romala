@@ -1,0 +1,10 @@
+Package: romala-keyboard
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Miguel Rivas <https://jmiguelrivas.github.io>
+Description: Romala keyboard layout for Romance languages
+ This layout extends the English keyboard with dead keys and accents
+ for writing in Spanish, Portuguese, French, Italian, and other Romance languages.
+
