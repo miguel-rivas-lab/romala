@@ -77,7 +77,7 @@ This will safely remove the layout files and the entries added to your system.
 From the `romala` folder:
 
 ```sh
-dpkg-deb --build --root-owner-group romala
+dpkg-deb --build . .
 ```
 
 This generates a `.deb` package ready for installation.
