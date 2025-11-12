@@ -2,7 +2,7 @@
 
 **Romala** is a **keyboard layout for Romance languages**. It extends the standard English keyboard with **dead keys and accents**, enabling efficient typing in a wide range of Romance languages while also providing a rich set of **math, logic, and special symbols**.
 
-<img width="1208" height="403" alt="image" src="https://github.com/user-attachments/assets/44c8186b-7dcc-4b1e-aa2d-0da62e2ff377" />
+![Romala keyboard](keyboard.webp)
 
 ---
 
